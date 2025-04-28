@@ -1,10 +1,11 @@
 import pygame
 from personaje import Personaje
+import constantes
 
 pygame.init()
 
-ancho = 800
-alto = 600
+ancho = constantes.ANCHO_VENTANA
+alto = constantes.ALTO_VENTANA
 
 ventana = pygame.display.set_mode((ancho, alto))
 pygame.display.set_caption("Mi juego en Pygame")
